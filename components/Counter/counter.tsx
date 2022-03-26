@@ -3,10 +3,10 @@ import { useSelector, useDispatch } from "react-redux";
 import {
   decrement,
   increment,
-  incrementByAmount,
   incrementAsync,
-  selectCount,
-} from "./counterSlice";
+  incrementByAmount,
+} from "../../store/actions";
+import { selectCount } from "../../store/selectors";
 import styles from "./Counter.module.css";
 
 export function Counter() {

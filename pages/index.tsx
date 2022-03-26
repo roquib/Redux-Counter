@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Counter } from "../store/features/counter/counter";
+import { Counter } from "../components/Counter";
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
